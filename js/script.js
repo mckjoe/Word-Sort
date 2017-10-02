@@ -8,14 +8,18 @@ $(document).ready(function() {
         newArray.push(word);
       }
     });
+    var newArrayReverse = newArray.reverse().join();
+    $("#output").text(newArrayReverse);
+    $("#init-showing").hide();
+    $("#init-hiding").show();
 
-    alert(newArray);
+
+
+    console.log(newArrayReverse);
 
 
 
-    // var inputs = words.map(function(word) {
-    //   return $(item).val().
-    // })
+
     event.preventDefault();
   });
 });

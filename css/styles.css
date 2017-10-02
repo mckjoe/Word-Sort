@@ -1,3 +1,7 @@
+#init-hiding {
+  display: none;
+}
+
 .container {
   background-color: beige;
 }
